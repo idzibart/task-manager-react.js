@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: black;
+  font-size: 1.5rem;
+  background-color: var(--color-background);
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 2em;
+  height: 2rem;
+}
+
+.btn{
+  color: red;
+}

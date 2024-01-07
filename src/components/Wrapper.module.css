@@ -1,0 +1,9 @@
+.wrapper {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-width: 400px;
+  gap: 1.5rem;
+}
